@@ -1,0 +1,292 @@
+* {
+  margin: 0 0;
+  padding: 0 0;
+  font-family: "Roboto", sans-serif;
+  color: #4e5358;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 50%;
+  margin: 50px auto;
+  position: relative;
+}
+
+header {
+  display: grid;
+  /* margin-left: 17%; */
+  align-items: center;
+  grid-template-columns: auto auto;
+  margin-bottom: 100px;
+  justify-content: space-between;
+}
+
+header Img {
+  width: 280px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+nav {
+  display: inline-block;
+}
+
+h3,
+h4 {
+  margin-bottom: 18px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 12px;
+}
+
+span {
+  color: #ff962c;
+  font-weight: 700;
+}
+
+figure img {
+  margin-bottom: 30px;
+}
+
+b {
+  color: #ff962c;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+  /* margin-left: 17%; */
+}
+
+.nav-menu {
+  text-decoration: none;
+  color: #343a40;
+  margin-right: 20px;
+}
+
+.nav-menu:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  color: #ff962c;
+}
+
+.nav-logo {
+  font-size: 32px;
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+.download-button {
+  display: inline-block;
+  padding: 15px 20px;
+  border: none;
+  background-color: #ffab58;
+  color: white;
+  font-weight: 700;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.download-button:hover {
+  background-color: #ff8a15;
+  color: white;
+}
+
+.header-h1 {
+  font-size: 48px;
+  margin-top: 20px;
+  color: #ff8a15;
+  margin-bottom: 20px;
+}
+
+.header-subtitle {
+  color: #757779;
+  width: 380px;
+  line-height: 1.4;
+}
+
+.moreinfo-button {
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 28px;
+  padding: 15px 20px;
+  border: none;
+  border: #ffab58 solid 3px;
+  background-color: white;
+  color: #ffab58;
+  font-weight: 700;
+  border-radius: 50px;
+  font-size: 14px;
+}
+
+.moreinfo-button:hover {
+  background-color: #ff8a15;
+  border: #ff8a15 solid 3px;
+  color: white;
+}
+
+/* .about-me {
+  margin-bottom: 80px;
+  background-color: #ffead5;
+  padding: 30px;
+}
+
+.about-me-header {
+  color: #3d3f41;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+.about-me-subtitle {
+  color: #3d3f41;
+  margin-bottom: 90px;
+  background-color: #ffe6cc;
+  padding: 25px;
+} */
+
+.quote {
+  background-color: #ff962c;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  /* margin-left: 17%; */
+  margin-bottom: 90px;
+}
+
+.quote-title {
+  color: rgb(255, 249, 242);
+  font-size: 35px;
+  margin-bottom: 38px;
+}
+
+.quote-description {
+  color: #ffe2c5;
+  margin-bottom: 28px;
+  font-style: italic;
+}
+
+.quote-author {
+  color: #ffe6cc;
+  font-size: 20px;
+  margin-bottom: 18px;
+}
+
+.work-title {
+  color: #ff962c;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.work-col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem;
+}
+
+.work-tag {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tag {
+  color: #ff8a15;
+  font-weight: 750;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.work-detail {
+  box-shadow: 0 10px 10px 10px rgb(0 0 0 / 10%);
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 90px;
+}
+.contract {
+  margin-bottom: 18px;
+  font-size: 14px;
+}
+
+.work-phone-icon {
+  margin-bottom: 45px;
+}
+
+.work-exp-list li {
+  margin-left: 20px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #606163;
+}
+
+.education {
+  background-color: #ffa244;
+  padding: 24px;
+  border-radius: 20px;
+  margin-bottom: 80px;
+}
+
+.education-title {
+  color: rgb(255, 249, 242);
+  font-size: 35px;
+  margin-bottom: 28px;
+  text-align: center;
+}
+
+.education-subtitle {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 20px;
+  row-gap: 30px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.education-name {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  align-self: center;
+}
+
+.education-major {
+  color: white;
+}
+
+.contact-info {
+  display: flex;
+  gap: 28px;
+  margin-top: 30px;
+  margin-left: 10%;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+}
+
+.contact-title {
+  font-size: 36px;
+  margin-bottom: 20px;
+  border-top: 5px solid #ff8a15;
+  border-bottom: 5px solid #ff8a15;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: #ff962c;
+  text-align: center;
+}
+
+.contact-sub-title {
+  font-weight: bold;
+  padding-left: 20px;
+}
