@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Resume</title>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.9/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.9/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyBHX62nGSJfB1Gjdjh0aHUhyA3dVAu1el8",
+        authDomain: "my-profile-atimak.firebaseapp.com",
+        projectId: "my-profile-atimak",
+        storageBucket: "my-profile-atimak.appspot.com",
+        messagingSenderId: "230697746324",
+        appId: "1:230697746324:web:356e98a4f41ebe058b9981",
+        measurementId: "G-EJJ1YPLSX3",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+  </head>
+  <body>
+    <!-- --------- Navigation ---------- -->
+    <div class="navigation">
+      <p class="nav-logo">artima.k</p>
+      <nav>
+        <a class="nav-menu" href="#about-me">About me</a>
+        <a class="nav-menu" href="#work-exp">Work</a>
+        <a class="nav-menu" href="#education">Education</a>
+        <a class="nav-menu" href="#contact-me">Contact</a>
+      </nav>
+      <a class="download-button" href="Artima-Khummee.pdf" download
+        >Download resume</a
+      >
+    </div>
+
+    <!-- --------- Head ---------- -->
+    <header>
+      <div class="header-content">
+        <h1 class="header-h1" id="about-me">ARTIMA <br />KHUMMEE</h1>
+        <p class="header-subtitle">
+          I am a System Analyst for an IT Solution company with knowledge of
+          design application flow diagrams, creating specification documents,
+          creating the reported issue, designing database table structure, and
+          designing API JSON nested structures. I also have some experience in
+          supporting manual testing such as User Acceptance Test and System
+          Testing.
+        </p>
+        <a class="moreinfo-button" href="#quote"> Read more about me</a>
+      </div>
+      <div class="header-image">
+        <img src="Image/IMG_0718.jpeg" alt="Profile Image" />
+      </div>
+    </header>
+
+    <!-- --------- Quote ---------- -->
+    <div class="quote">
+      <h2 class="quote-title" id="quote">
+        “The one who never makes mistakes is the one who never does anything”
+      </h2>
+      <p class="quote-description">
+        There is nothing in the world that is perfect. Everyone can make
+        mistakes and the mistakes will make you stronger.
+      </p>
+      <p class="quote-author">- Supansa</p>
+    </div>
+
+    <!-- <h1 class="about-me-header" id="about-me">about me</h1>
+    <div class="about-me-title">
+
+      <p class="about-me-subtitle">
+        My name is Artima Khummee (Air). I am working as a System Analyst for an
+        IT Solution company with knowledge of design application flow diagrams,
+        creating specification documents, creating the reported issue, designing
+        database table structure, and designing API JSON nested structures. I
+        also have some experience in supporting manual testing such as User
+        Acceptance Test and System Testing.
+      </p>
+    </div> -->
+    <!-- --------- Work ---------- -->
+    <div class="work-exp" id="work-exp">
+      <h1 class="work-title">Recent Work</h1>
+      <div class="work-col">
+        <figure class="work-detail">
+          <div class="work-tag">
+            <img
+              class="work-car-icon"
+              src="Image/car.png"
+              alt="phone icon"
+              width="50px"
+            />
+            <p class="tag">CURRENT</p>
+          </div>
+          <div class="work-content1">
+            <h3>SYSTEM ANALYSTS</h3>
+            <h4>TOYOTA Connected Asia Pacifics</h4>
+            <p class="contract">
+              <span>Contract</span> (September 2021 to Present)
+            </p>
+
+            <ul class="work-exp-list">
+              <li>
+                Design workflow and database information, specification and
+                ER-diagram and summary report.
+              </li>
+              <li>Prepare detailed documents for developers.</li>
+              <li>
+                Prepare testcase, System testing, UAT Testing, Report issue bug.
+              </li>
+              <li>Collecting Business requirements.</li>
+              <li>Estimate manday for project.</li>
+              <li>Prepare SQL script and query reports.</li>
+            </ul>
+          </div>
+        </figure>
+        <figure class="work-detail">
+          <img
+            class="work-phone-icon"
+            src="Image/phone-call.png"
+            alt="phone icon"
+            width="33px"
+          />
+          <div class="work-content2">
+            <h3>SYSTEM ANALYSTS</h3>
+            <h4>Advanced Info Service (AIS)</h4>
+            <p class="contract">
+              <span>Contract</span> (January 2020 to August 2021)
+            </p>
+            <ul class="work-exp-list">
+              <li>Design flow and a diagram for the application.</li>
+              <li>DB Admin prepare script.</li>
+              <li>Prepare specification document for developer and tester.</li>
+              <li>Design API Json structure</li>
+              <li>VBA , Python create SQL script</li>
+              <li>
+                Prepare testcase, System testing, UAT Testing, Report issue bug.
+              </li>
+            </ul>
+          </div>
+        </figure>
+      </div>
+    </div>
+    <!-- --------- Education ---------- -->
+    <div class="education" id="education">
+      <h2 class="education-title">Education</h2>
+      <div class="education-subtitle">
+        <img
+          class="education-icon"
+          src="Image/graduate.png"
+          alt="phone icon"
+          width="33px"
+        />
+        <div class="education-detail">
+          <p class="education-name">
+            KING MONGKUT'S UNIVERSITY OF TECHNOLOGY NORTH BANGKOK
+          </p>
+          <p class="education-major">Bachelor's Degree in Computer Science</p>
+        </div>
+        <img
+          class="education-icon"
+          src="Image/graduate.png"
+          alt="phone icon"
+          width="33px"
+        />
+        <div class="education-detail">
+          <p class="education-name">SARASAS WITAED ROMKLAO SCHOOL</p>
+          <p class="education-major">High School Diploma in Math Science</p>
+        </div>
+      </div>
+    </div>
+    <!-- --------- Contact ---------- -->
+    <h1 class="contact-title">Contact Me</h1>
+    <div class="contact-info" id="contact-me">
+      <div class="contact-sub-title">
+        <p>Email</p>
+        <p>Contact Number</p>
+        <p>Location</p>
+      </div>
+      <div class="contact-sub-detail">
+        <p>artima.ak@gmail.com</p>
+        <p>(66)99 635 3844</p>
+        <p>2/312 Supalai Park, Chatuchak ,Bangkok Thailand</p>
+      </div>
+    </div>
+  </body>
+</html>
