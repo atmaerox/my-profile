@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <link href="style.css" rel="stylesheet" />
-    <!-- <link rel="stylesheet" media="(max-width: 480px)" href="mobileScreen.css" /> -->
+    <link href="style.css" media="screen and (min-device-width: 1440px)" rel="stylesheet" />
+    <link rel="stylesheet" media='screen and (min-width: 800px) and (max-width: 1439px)' href="tabletScreen.css" />
+    <!-- <link rel='stylesheet' media='screen and (min-width: 100px) and (max-width: 799px)' href='mobile-style.css' /> -->
     <title>My Profile</title>
     <script type="module">
       // Import the functions you need from the SDKs you need
@@ -48,7 +49,7 @@
     <!-- --------- Head ---------- -->
     <header>
       <div class="header-content">
-        <h1 class="header-h1" id="about-me">ARTIMA <br />KHUMMEE</h1>
+        <h1 class="header-h1" id="about-me">ARTIMA KHUMMEE</h1>
         <p class="header-subtitle">
           I am a System Analyst for an IT Solution company with knowledge of
           design application flow diagrams, creating specification documents,
@@ -61,6 +62,8 @@
       </div>
       <div class="header-image">
         <img src="Image/IMG_0718.jpeg" alt="Profile Image" />
+        <a class="download-button-tablet" href="Artima-Khummee.pdf" download
+        >Download resume</a
       </div>
     </header>
 
@@ -181,7 +184,7 @@
     </div>
     <!-- My Calendar -->
     <div class="calendar-container">
-      <h1 class="calendar-title">Weekly Calendar</h1>
+      <h1 class="calendar-title">My Schedule</h1>
       <iframe
         class="calendar-frame"
         src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23ffffff&ctz=Asia%2FBangkok&mode=WEEK&showTz=0&showCalendars=0&showPrint=0&showTabs=0&showNav=0&showDate=0&showTitle=0&src=YXJ0aW1hLmFrQGdtYWlsLmNvbQ&src=ZDNwZm50NWY0b3BnaDMxNnZ1czVycnZycHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ZW4udGgjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23039BE5&color=%23cccccc&color=%230B8043"
