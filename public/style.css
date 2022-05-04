@@ -277,8 +277,8 @@ b {
 
 .contact-title {
   font-size: 36px;
-  margin-bottom: 20px;
-  border-top: 5px solid #ff8a15;
+  margin-top: 20px;
+  /* border-top: 5px solid #ff8a15; */
   border-bottom: 5px solid #ff8a15;
   padding-top: 16px;
   padding-bottom: 16px;
@@ -293,4 +293,22 @@ b {
 
 .contact-sub-detail p {
   color: #ff962c;
+}
+
+.calendar-container {
+  margin-top: 50px;
+  border: 5px solid #ff8a15;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.calendar-title {
+  color: #ff962c;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.calendar-frame {
 }
