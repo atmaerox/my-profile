@@ -20,7 +20,7 @@ header {
   grid-template-columns: 1 auto;
   margin-bottom: 50px;
   justify-items: center;
-  row-gap: 20px;
+  row-gap: 12px;
   align-self: center;
 }
 
@@ -38,6 +38,7 @@ h4 {
 }
 
 .navigation {
+  height: 0;
   visibility: hidden;
 }
 
@@ -52,10 +53,13 @@ header Img {
   display: flex;
   flex-direction: column;
 }
+.header-content p {
+  font-size: 14px;
+}
 
 .header-h1 {
-  font-size: 26px;
-  margin-top: 18px;
+  font-size: 30px;
+  /* margin-top: 18px; */
   color: #ff8a15;
   margin-bottom: 20px;
   text-align: center;
@@ -63,7 +67,7 @@ header Img {
 
 .header-subtitle {
   color: #757779;
-  width: 350px;
+  width: 450px;
   line-height: 1.4;
   text-align: center;
 }
@@ -232,10 +236,11 @@ header Img {
 
 .contact-info {
   display: flex;
-  gap: 18px;
+  /* gap: 18px; */
   margin-top: 30px;
-  align-self: center;
   margin-bottom: 30px;
+  padding: 10px auto;
+  align-self: center;
 }
 
 .contact-info p {
@@ -253,8 +258,21 @@ header Img {
   text-align: center;
 }
 
-.contact-sub-title p {
-  font-weight: bold;
-  padding-left: 18px;
+.contact-sub-detail a {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contact-sub-detail a,
+.contact-sub-detail p {
+  font-size: 12px;
   color: #ff962c;
+}
+
+.contact-sub-title {
+  margin-right: 30px;
+}
+
+.contact-sub-title p {
+  font-size: 12px;
 }

@@ -298,8 +298,10 @@ b {
   padding-left: 20px;
 }
 
-.contact-sub-detail p {
+.contact-sub-detail a {
   color: #ff962c;
+  display: block;
+  margin-bottom: 10px;
 }
 
 .calendar-container {

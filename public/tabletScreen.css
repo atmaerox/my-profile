@@ -20,7 +20,7 @@ header {
   grid-template-columns: 1 auto;
   margin-bottom: 50px;
   justify-items: center;
-  row-gap: 20px;
+  /* row-gap: 2px; */
   align-self: center;
 }
 
@@ -38,11 +38,12 @@ h4 {
 }
 
 .navigation {
+  height: 0;
   visibility: hidden;
 }
 
 header Img {
-  width: 500px;
+  width: 480px;
   height: 350px;
   object-fit: cover;
   border-radius: 18px;
@@ -63,8 +64,9 @@ header Img {
 
 .header-subtitle {
   color: #757779;
-  width: 550px;
+  width: 480px;
   line-height: 1.4;
+  font-size: 16px;
 }
 
 .header-image {
@@ -229,11 +231,11 @@ header Img {
 
 .contact-info {
   display: flex;
-  gap: 18px;
+  /* gap: 1px; */
   margin-top: 30px;
-  margin-left: 10%;
   align-self: center;
   margin-bottom: 30px;
+  padding: 10px auto;
 }
 
 .contact-info p {
@@ -251,8 +253,22 @@ header Img {
   text-align: center;
 }
 
-.contact-sub-title p {
-  font-weight: bold;
-  padding-left: 20px;
+.contact-sub-detail a {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contact-sub-detail a,
+.contact-sub-detail p {
+  font-size: 15px;
   color: #ff962c;
+}
+
+.contact-sub-title {
+  margin-right: 30px;
+  font-weight: bold;
+}
+
+.contact-sub-title p {
+  font-size: 15px;
 }
