@@ -170,7 +170,7 @@ b {
   flex-direction: column;
   border-radius: 20px;
   /* margin-left: 17%; */
-  margin-bottom: 90px;
+  margin-bottom: 50px;
 }
 
 .quote-title {
@@ -189,6 +189,38 @@ b {
   color: #ffe6cc;
   font-size: 20px;
   margin-bottom: 18px;
+}
+
+.my-profile-info {
+  margin-bottom: 70px;
+}
+
+.profile-title {
+  /* text-align: center; */
+  color: #ff962c;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.profile-topic {
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.profile-container {
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.profile-detail {
+  margin-top: 10px;
+  display: grid;
+  justify-content: start;
+  grid-template-columns: 1.5fr 2fr 1fr 2fr;
+}
+
+.profile-description {
+  color: #ff8a15;
 }
 
 .work-title {
@@ -264,11 +296,33 @@ b {
   color: white;
   text-transform: uppercase;
   font-weight: 700;
-  align-self: center;
 }
 
 .education-major {
   color: white;
+}
+
+.education-detail {
+  display: flex;
+  flex-direction: column;
+}
+
+.edu-more-info-btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border: white solid 3px;
+  border-radius: 50px;
+  width: fit-content;
+  color: white;
+  font-weight: bold;
+  align-self: flex-end;
+  text-decoration: none;
+}
+
+.edu-more-info-btn:hover {
+  background-color: white;
+  color: #ffa244;
 }
 
 .contact-info {
@@ -302,6 +356,57 @@ b {
   color: #ff962c;
   display: block;
   margin-bottom: 10px;
+}
+
+.cert-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cert-title {
+  color: #ff962c;
+}
+
+.cert-unorder-list {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.cert-list {
+  display: grid;
+  grid-template-columns: 4fr 1fr 2fr;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.cert-list li {
+  color: #ff8a15;
+  font-weight: 700;
+}
+
+.cert-list p {
+  font-weight: 700;
+}
+
+.cert-doc {
+  font-size: 10px;
+  padding: 5px 10px;
+  border: none;
+  border: #ff8a15 2px solid;
+  background-color: #ff8a15;
+  border-radius: 50px;
+  width: fit-content;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.cert-doc:hover {
+  background-color: white;
+  border: #ff8a15 2px solid;
+  color: #ff8a15;
 }
 
 .calendar-container {

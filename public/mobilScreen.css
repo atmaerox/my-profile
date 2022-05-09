@@ -131,6 +131,45 @@ header Img {
   font-size: 15px;
 }
 
+.my-profile-info {
+  margin-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+
+.profile-title {
+  margin: auto;
+  color: #ff962c;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.profile-topic {
+  font-weight: 600;
+  margin-bottom: 12px;
+  font-size: 13px;
+}
+
+.profile-container {
+  margin-left: 10px;
+  margin-top: 30px;
+  align-self: center;
+  width: 350px;
+}
+
+.profile-detail {
+  margin-top: 10px;
+  display: grid;
+  justify-content: start;
+  grid-template-columns: 1fr 0.9fr 0.8fr 1fr;
+}
+
+.profile-description {
+  color: #ff8a15;
+  font-size: 13px;
+}
+
 .work-exp {
   align-self: center;
 }
@@ -213,13 +252,93 @@ header Img {
   color: white;
   text-transform: uppercase;
   font-weight: 700;
-  align-self: center;
+  /* align-self: center; */
   font-size: 12px;
 }
 
 .education-major {
   color: white;
   font-size: 12px;
+}
+
+.education-detail {
+  display: flex;
+  flex-direction: column;
+}
+
+.edu-more-info-btn {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border: none;
+  border: white solid 2px;
+  border-radius: 50px;
+  width: fit-content;
+  color: white;
+  font-weight: bold;
+  align-self: flex-start;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.edu-more-info-btn:hover {
+  background-color: white;
+  color: #ffa244;
+}
+
+.cert-container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+.cert-title {
+  color: #ff962c;
+  text-align: center;
+}
+
+.cert-unorder-list {
+  margin-top: 40px;
+}
+
+.cert-list {
+  display: grid;
+  grid-template-columns: 3fr 2fr 1fr;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.cert-list li {
+  color: #ff8a15;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.cert-list p {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.cert-doc {
+  font-size: 10px;
+  padding: 5px 10px;
+  border: none;
+  border: #ff8a15 2px solid;
+  background-color: #ff8a15;
+  border-radius: 50px;
+  width: fit-content;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.cert-doc:hover {
+  background-color: white;
+  border: #ff8a15 2px solid;
+  color: #ff8a15;
 }
 
 .calendar-container {
